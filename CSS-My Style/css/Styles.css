@@ -6,30 +6,41 @@ font-family: cursive, Sacramento,sans-serif;
 }
 
 h1 {
-  width: 10%;
+   margin-top: 50px;
   margin: 0 auto 0 auto;
   font-family:Sacramento,cursive ;
-  font-size: 50px
+  font-size: 5.625rem ;
+  font-weight: bold;
 }
 
+h2  {
+  font-family: Montez,Montserrat;
+  font-size: 2.5rem ;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Montez, Montserrat;
+}
+
+h4{
+  font-family: Montez, Montserrat;
+}
+
+h5{
+  font-family: Montez, Montserrat;
+}
+
+h6{
+  font-family: Montez, Montserrat;
+}
 
 .top-gamer {
 Background-color: #E4F9F5;
-width:1670px;
- padding-top: 100px;
-}
-
-.middle-gamer {
- Background-color: blue;
- height: 200px;
- width :200px;
-}
-
-
-.bottom-gamer{
-  background-color: red;
-  height:200px;
-  width :200px;
+size: 100%;
+padding-top: 100px;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 .Pro{
@@ -38,12 +49,24 @@ width:1670px;
 
 .top-clu {
 position: absolute;
-right: 290px;
-bottom: 700px;
+right: 400px;
+bottom:800px;
 }
 .bottom-clu{
    position: absolute;
-   left: 300px;
+   left: 400px;
    bottom:610px;
-  right:  50px;
+}
+
+.blue{
+  position: absolute;
+   right: 100px;
+   left: 0;
+   top: 0;
+   bottom: 0;
+}
+
+.Vineesh {
+  position: absolute;
+  text-align: center;
 }
